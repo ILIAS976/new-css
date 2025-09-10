@@ -1,0 +1,40 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col{
+    width: 25%;
+    height: 450px;
+    background:white ;
+    margin: 10px;
+}
+.profile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 20px;
+    margin-top: 5px;
+}
+h2{
+    padding:5px ;
+    text-transform: capitalize;
+    background-color: white;
+}
+.image{
+    width: 200px;
+    margin: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    background: white;
+    padding: 5px;
+}
